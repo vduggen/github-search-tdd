@@ -18,9 +18,9 @@
       "jest"
     ],
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@atoms": ["src/app/shared/components/atoms/index"],
     },
     "lib": [
       "esnext",
